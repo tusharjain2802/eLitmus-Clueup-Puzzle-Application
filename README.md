@@ -14,7 +14,7 @@ This application challenges your problem-solving skills! Solve the puzzle, asses
 
 ## Demo
 
-![Demo](demo.gif)
+![Demo](https://github.com/tusharjain2802/eLitmus-Clueup-Puzzle-Application/blob/main/public/demo.gif)
 
 ## Features
 
@@ -57,14 +57,3 @@ o	Minimum 1 solution
    ```shell
    mongod
    ```
-
-## Contributing
-
-- Explain how other developers can contribute to your puzzle application.
-- Provide guidelines for submitting bug reports, feature requests, or code contributions.
-- Include any information about your contribution workflow, coding standards, or testing procedures.
-
-## License
-
-- Specify the license under which your puzzle application is distributed.
-- Include any relevant disclaimers, limitations, or terms and conditions.

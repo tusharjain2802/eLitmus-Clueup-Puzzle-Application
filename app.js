@@ -131,7 +131,7 @@ app.post("/login",(req,res)=>{
   const password = req.body.password;
   User.findOne({teamName:username,password:password},(err,result)=>
   {
-    console.log(result);
+    //console.log(result);
     if(!err && result && !complete(result))
     {
       if(result)
@@ -187,7 +187,7 @@ app.post("/register",function(req,res){
             {
               if(!err) 
               {
-                console.log("Success");
+                //console.log("Success");
                 res.render("clueLogin",{title:"Registration Successful",info:""});
               }
               else res.render("error");
@@ -211,7 +211,7 @@ app.post("/:number",(req,res)=>
   User.findOne({teamName:req.body.name},(err,result)=>
     {
       if(result != null) {
-      console.log(result);
+      //console.log(result);
       const placenumber = (req.params.number); 
       if(!err && !complete(result))
       {
