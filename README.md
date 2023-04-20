@@ -9,8 +9,6 @@ This application challenges your problem-solving skills! Solve the puzzle, asses
 - [Soft Skills Assessment](#soft-skills-assessment)
 - [Ways to Solve the Puzzle](#ways-to-solve-the-puzzle)
 - [Setup Instructions](#setup-instructions)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
