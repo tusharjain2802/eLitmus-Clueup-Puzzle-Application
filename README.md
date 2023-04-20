@@ -2,6 +2,8 @@
 An interactive puzzle that can be solved on an online website
 This application challenges your problem-solving skills! Solve the puzzle, assess your soft skills, and have fun while sharpening your mind.
 
+https://elitmus-clueup-puzzle-application.onrender.com/
+
 ## Table of Contents
 
 - [Demo](#demo)
@@ -12,7 +14,7 @@ This application challenges your problem-solving skills! Solve the puzzle, asses
 
 ## Demo
 
-![Demo](https://github.com/tusharjain2802/eLitmus-Clueup-Puzzle-Application/blob/main/public/demo.gif)
+[![Demo][https://github.com/tusharjain2802/eLitmus-Clueup-Puzzle-Application/blob/main/public/demo.gif]](https://elitmus-clueup-puzzle-application.onrender.com/)
 
 ## Features
 
