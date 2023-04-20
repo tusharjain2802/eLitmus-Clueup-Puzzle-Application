@@ -14,7 +14,7 @@ https://elitmus-clueup-puzzle-application.onrender.com/
 
 ## Demo
 
-[![Demo][https://github.com/tusharjain2802/eLitmus-Clueup-Puzzle-Application/blob/main/public/demo.gif]](https://elitmus-clueup-puzzle-application.onrender.com/)
+[![Demo][product-screenshot]](https://elitmus-clueup-puzzle-application.onrender.com/)
 
 ## Features
 
@@ -57,3 +57,5 @@ o	Minimum 1 solution
    ```shell
    mongod
    ```
+
+[product-screenshot]:https://github.com/tusharjain2802/eLitmus-Clueup-Puzzle-Application/blob/main/public/demo.gif
