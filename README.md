@@ -18,12 +18,12 @@ https://elitmus-clueup-puzzle-application.onrender.com/
 
 ## Features
 
-- The puzzle must contain 
-o	Minimum 5 clues
-o	Minimum 2 dead-ends
-o	Minimum 1 solution 
+- The puzzle contains 
+o	5 clues
+o	2 dead-ends
+o	1 solution 
 
-- On refreshing, from either browser or website, the puzzle should start from the same step.
+- On refreshing, from either browser or website, the puzzle starts from the same step.
 - A dashboard for the admin where the progress of all the users can be tracked & analyzed  (email: admin@elitmus.com password: topsecret)
 - User analytics (eg - time taken by each user for every riddle) is stored and shown in the admin dashboard
 
@@ -36,7 +36,7 @@ o	Minimum 1 solution
 ## Ways to Solve the Puzzle
 
 - Start with registering on the website. It contains a total of 5 riddles to be answered, along with 1 multiple-correct type question.
-- User can answer the questions by simply adding the answer at the end of the web-link Eg. https://elitmus-clueup-puzzle-application.onrender.com/answer.
+- User can answer the questions by simply adding the answer at the end of the web-link Eg. https://elitmus-clueup-puzzle-application.onrender.com/{answer}.
 - Once a user solves the final riddle, a page showing "The Hunt Has Succeeded !!" gets displayed.
 
 ## Setup Instructions
@@ -49,13 +49,14 @@ o	Minimum 1 solution
    ```sh
    npm install
    ```
-4. Run the mongoDB on localhost using mongo shell.
-   ```js
-   node app.js
-   ```
-5. Run the application on localhost using node app.js
+4. Run the mongoDB server on localhost using mongo shell or use your mongoDB Atlas link.
    ```shell
    mongod
    ```
+4. Run the application on localhost using node app.js
+   ```js
+   node app.js
+   ```
+
 
 [product-screenshot]:https://github.com/tusharjain2802/eLitmus-Clueup-Puzzle-Application/blob/main/public/demo.gif
