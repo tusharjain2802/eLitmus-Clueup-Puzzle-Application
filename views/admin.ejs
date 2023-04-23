@@ -29,12 +29,11 @@
     
 		<img src="elitmus.svg" class="masterlogo"  srcset="">
 		<h2>Leaderboard</h2>
-        
-        <h6>Note: 0h 0m 0s depicts, the clue isn't solved yet</h6>
+    
         <div class="row">
 			<div class="col-md-2 form-group"><p style="font-size: 20px;">Username</p> </div>
 			<div class="col-md-2 form-group"><p style="font-size: 20px;">1st Clue</p></div>    	
-			<div class="col-md-2 form-group"><p style="font-size: 20px;">2nn Clue</p></div>
+			<div class="col-md-2 form-group"><p style="font-size: 20px;">2nd Clue</p></div>
 			<div class="col-md-2 form-group"><p style="font-size: 20px;">3rd Clue</p></div>
 			<div class="col-md-2 form-group"><p style="font-size: 20px;">4th Clue</p></div>
             <div class="col-md-2 form-group"><p style="font-size: 20px;">5th Clue</p></div>
@@ -54,14 +53,50 @@
         <% sec[i] = sec[i] % 60; %>
         <% min[i] = min[i] % 60; %>
         <% } %>
-
+        
 		<div class="row">
-			<div class="col-md-2 form-group"><p class="form-control" style="font-size: 20px;"><%= post.teamName %></p> </div>
-			<div class="col-md-2 form-group"><p class="form-control" style="font-size: 20px;"><%=hours[0]%>h <%=min[0]%>m <%=sec[0]%>s</p> </div>
-            <div class="col-md-2 form-group"><p class="form-control" style="font-size: 20px;"><%=hours[1]%>h <%=min[1]%>m <%=sec[1]%>s</p> </div>
-            <div class="col-md-2 form-group"><p class="form-control" style="font-size: 20px;"><%=hours[2]%>h <%=min[2]%>m <%=sec[2]%>s</p> </div>
-            <div class="col-md-2 form-group"><p class="form-control" style="font-size: 20px;"><%=hours[3]%>h <%=min[3]%>m <%=sec[3]%>s</p> </div>
-            <div class="col-md-2 form-group"><p class="form-control" style="font-size: 20px;"><%=hours[4]%>h <%=min[4]%>m <%=sec[4]%>s</p> </div>
+			<div class="col-md-2 form-group">
+                <p class="form-control" style="font-size: 20px;"><%= post.teamName %></p> </div>
+            
+            <div class="col-md-2 form-group">
+                <p class="form-control" style="font-size: 20px;">
+                    <% if(hours[0]>0 || min[0]>0 || sec[0]>0){ %><%=hours[0]%>h <%=min[0]%>m <%=sec[0]%>s
+                    <% } %>
+                    </p> 
+                </div>
+            
+            
+            <div class="col-md-2 form-group">
+                <p class="form-control" style="font-size: 20px;">
+                    <% if(hours[1]>0 || min[1]>0 || sec[1]>0){ %><%=hours[1]%>h <%=min[1]%>m <%=sec[1]%>s
+                    <% } %>
+                    </p> 
+                </div>
+            
+            
+            <div class="col-md-2 form-group">
+                <p class="form-control" style="font-size: 20px;">
+                    <% if(hours[2]>0 || min[2]>0 || sec[2]>0){ %><%=hours[2]%>h <%=min[2]%>m <%=sec[2]%>s
+                    <% } %>
+                    </p> 
+                </div>
+            
+            
+            <div class="col-md-2 form-group">
+                <p class="form-control" style="font-size: 20px;">
+                    <% if(hours[3]>0 || min[3]>0 || sec[3]>0){ %><%=hours[3]%>h <%=min[3]%>m <%=sec[3]%>s
+                    <% } %>
+                    </p> 
+                </div>
+            
+            
+            <div class="col-md-2 form-group">
+                <p class="form-control" style="font-size: 20px;">
+                    <% if(hours[4]>0 || min[4]>0 || sec[4]>0){ %><%=hours[4]%>h <%=min[4]%>m <%=sec[4]%>s
+                    <% } %>
+                    </p> 
+                </div>
+            
         </div>
 		<% }) %>
    
